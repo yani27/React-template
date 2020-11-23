@@ -1,0 +1,50 @@
+.hero-container {
+  margin-top: 80px;
+  height: 100%;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  /* position: fixed; */
+  z-index: 1;
+}
+
+.hero-btns {
+  height: 60%;
+  margin-top: 80px;
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  width: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+.sub-hero {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex: 1;
+}
+
+.hero-text > h1 {
+  color: silver;
+  font-size: 100px;
+}
+
+.hero-text > p {
+  color: silver;
+  font-size: 50px;
+}

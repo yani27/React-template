@@ -1,0 +1,29 @@
+.aboutUsContainer {
+  background-color: white;
+  margin-top: 0 !important;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.textContainer {
+  background-color: yellowgreen;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fNameContainer {
+  background-color: #fff;
+  width: 100%;
+  height: 30%;
+  justify-content: center;
+}
+.description {
+  background-color: aqua;
+  width: 100%;
+  height: 70%;
+}
