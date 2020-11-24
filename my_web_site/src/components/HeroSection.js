@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { Button } from "./Buttons";
 import "./heroSection.css";
 
@@ -16,8 +17,17 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="sub-hero">
-          <Button to="/" children="About us" buttonStyle="btn--outline" />
-          <Button to="/" children="Contact us" buttonStyle="btn--primary" />
+          <Link
+            activeClass="active"
+            to="page1"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <Button children="About us" buttonStyle="btn--outline" />
+          </Link>
+          <Button children="Contact us" buttonStyle="btn--primary" />
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Aboutus from "./AboutUs";
 import { homeObjOne, homeObjthree, homeObjtwo } from "./Data";
+import Footer from "./Footer";
 import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
 import Page from "./Page";
@@ -9,8 +10,11 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <Page child={<HeroSection />} />
-      <Page child={<Aboutus {...homeObjOne} pathFigure="/images/img2.jpg" />} />
+      <Page id="homepage" child={<HeroSection />} />
+      <Page
+        id="page1"
+        child={<Aboutus {...homeObjOne} pathFigure="/images/img2.jpg" />}
+      />
       <Page
         child={
           <Aboutus
@@ -25,6 +29,7 @@ export default function Home() {
       <Page
         child={<Aboutus {...homeObjthree} pathFigure="/images/749.jpg" />}
       />
+      <Footer />
     </div>
   );
 }
