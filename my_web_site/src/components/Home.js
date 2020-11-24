@@ -10,14 +10,12 @@ export default function Home() {
     <div>
       <Navbar />
       <Page child={<HeroSection />} />
-      <Page
-        child={<Aboutus {...homeObjOne} pathFigure="/public/images/img2.jpg" />}
-      />
+      <Page child={<Aboutus {...homeObjOne} pathFigure="/images/img2.jpg" />} />
       <Page
         child={
           <Aboutus
             {...homeObjtwo}
-            pathFigure="/public/images/img1.jpg"
+            pathFigure="/images/img1.jpg"
             first="1"
             second="0"
             white="true"
@@ -25,9 +23,7 @@ export default function Home() {
         }
       />
       <Page
-        child={
-          <Aboutus {...homeObjthree} pathFigure="/public/images/749.jpg" />
-        }
+        child={<Aboutus {...homeObjthree} pathFigure="/images/749.jpg" />}
       />
     </div>
   );

@@ -29,3 +29,10 @@
 .figureContainer img {
   width: 400px;
 }
+
+@media screen and (max-width: 760px) {
+  .figureContainer img {
+    width: 180px;
+    margin: 5px;
+  }
+}
