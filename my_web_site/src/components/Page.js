@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 export default function Page({ child, id, scrollTo }) {
-  useEffect(() => {
+  /* useEffect(() => {
     window.addEventListener(
       "scroll",
       (_) => {
@@ -10,7 +10,7 @@ export default function Page({ child, id, scrollTo }) {
       },
       true
     );
-  });
+  });*/
   return (
     <div id={id} className="page">
       {child}
