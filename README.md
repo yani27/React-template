@@ -1,2 +1,2 @@
-# my web site usin 'react' for first time
+# my web site using 'react' for first time
 
