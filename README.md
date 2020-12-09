@@ -1,2 +1,2 @@
-# my web site usin 'ract' for first time
+# my web site usin 'react' for first time
 
