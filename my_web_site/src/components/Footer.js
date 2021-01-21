@@ -7,15 +7,21 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-icons">
-        <div className="icon-div">
-          <FaFacebookF className="icon" />
-        </div>
-        <div className="icon-div">
-          <FaGithubAlt className="icon" />
-        </div>
-        <div className="icon-div">
-          <SiGmail className="icon" />
-        </div>
+        <a href="https://www.facebook.com/yani.capital/">
+          <div className="icon-div">
+            <FaFacebookF className="icon" />
+          </div>
+        </a>
+        <a href="https://github.com/yani27/">
+          <div className="icon-div">
+            <FaGithubAlt className="icon" />
+          </div>
+        </a>
+        <a href="yanilacamora@gmail.com">
+          <div className="icon-div">
+            <SiGmail className="icon" />
+          </div>
+        </a>
       </div>
       <div className="copy">
         <BiCopyright /> 2020 Yani Y. Campbell
